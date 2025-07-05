@@ -58,18 +58,3 @@ This project builds a real-time pricing system for urban parking lots, adjusting
 This project demonstrates how combining occupancy data with additional demand factors leads to stable, realistic dynamic pricing for parking lots, improving utilization and customer satisfaction.
 
 ---
-
-## 📝 How to Run
-1. Clone the repo:
-    ```bash
-    git clone https://github.com/yourusername/parking-dynamic-pricing.git
-    cd parking-dynamic-pricing
-    ```
-2. Open the notebook in Colab or Jupyter.
-3. Run Model 1 and Model 2 sections.
-4. View interactive Bokeh plots.
-
----
-
-## 📄 License
-MIT License.
