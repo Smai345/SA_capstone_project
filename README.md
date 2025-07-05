@@ -28,6 +28,7 @@ Compared to Model 1, the pricing curve here is much more stable, avoiding errati
 Even during times of increased occupancy or special events, the demand function’s design dampens extreme price spikes, which leads to a better user experience and more predictable revenue.
 
 🔎 Key Insights
+
 ✅ Baseline Model Strengths:
 
 Simple and easy to implement.
@@ -55,4 +56,5 @@ Slightly more complex to implement and tune feature weights.
 May require additional data engineering to preprocess features like traffic or event indicators.
 
 📌 Conclusion
+
 Including both models demonstrates a progression from a straightforward occupancy-driven approach (Model 1) to a richer, more robust demand-aware pricing system (Model 2). While the baseline provides a simple benchmark, the demand-based pricing offers smoother, more realistic pricing evolution suitable for dynamic urban parking environments.
