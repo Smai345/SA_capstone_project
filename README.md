@@ -27,13 +27,17 @@ This project builds a real-time pricing system for urban parking lots, adjusting
 ---
 
 ## 📈 Demand Function (Model 2)
-\[
-\text{Demand} = 0.5 \cdot \text{OccupancyRatio} + 0.3 \cdot \frac{\text{QueueLength}}{10} + 0.4 \cdot \text{TrafficWeight} + 0.2 \cdot \text{IsSpecialDay} + 0.1 \cdot \text{VehicleWeight}
-\]
-- Demand is normalized to [0,1], and price is:
-\[
-\text{Price} = \text{BasePrice} \times (1 + \lambda \cdot \text{NormalizedDemand})
-\]
+Demand = 0.5 * OccupancyRatio
+       + 0.3 * (QueueLength / 10)
+       + 0.4 * TrafficWeight
+       + 0.2 * IsSpecialDay
+       + 0.1 * VehicleWeight
+
+       
+NormalizedDemand = Demand / (sum of weights = 1.5)
+
+Price = BasePrice * (1 + lambda * NormalizedDemand)
+
 
 ---
 
